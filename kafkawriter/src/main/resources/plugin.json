@@ -1,0 +1,6 @@
+{
+    "name": "kafkawriter",
+    "class": "com.icss.datax.plugin.writer.kafkawriter.KafkaWriter",
+    "description": "将数据同步到kakfa队列中",
+    "developer": "liudi"
+}

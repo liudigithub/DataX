@@ -204,8 +204,10 @@ public class Engine {
 
     public static void main(String[] args) throws Exception {
         int exitCode = 0;
+        System.setProperty("datax.home","D:\\github\\DataX\\target\\datax\\datax");
+        String[] dataxArgs = {"-job","C:\\Users\\Administrator\\Desktop\\datax\\kafka-test.json","-mode","standalone","-jobid","123"};
         try {
-            Engine.entry(args);
+            Engine.entry(dataxArgs);
         } catch (Throwable e) {
             exitCode = 1;
             LOG.error("\n\n经DataX智能分析,该任务最可能的错误原因是:\n" + ExceptionTracker.trace(e));

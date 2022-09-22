@@ -116,9 +116,10 @@
         <module>cassandrawriter</module>
         <module>clickhousewriter</module>
 
-        <!-- common support module -->
+<!--        &lt;!&ndash; common support module &ndash;&gt;-->
         <module>plugin-rdbms-util</module>
         <module>plugin-unstructured-storage-util</module>
+        <module>kafkawriter</module>
     </modules>
 
     <dependencyManagement>

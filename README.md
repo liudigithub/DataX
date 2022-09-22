@@ -1,5 +1,9 @@
 ![Datax-logo](https://github.com/alibaba/DataX/blob/master/images/DataX-logo.jpg)
 
+mvn clean package -DskipTests assembly:assembly
+
+开放文档
+https://github.com/alibaba/DataX/blob/master/dataxPluginDev.md
 
 # DataX
 
